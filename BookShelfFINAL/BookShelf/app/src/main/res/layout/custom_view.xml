@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <!-- Bookmark Title -->
+
+    <TextView
+        android:id="@+id/bookmark_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <!-- Bookmark Url -->
+
+    <TextView
+        android:id="@+id/bookmark_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:textColor="#dd44dd"
+        android:textSize="17sp" />
+
+</LinearLayout>
